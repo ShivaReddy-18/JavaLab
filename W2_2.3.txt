@@ -1,0 +1,30 @@
+class Person {
+    String name;
+    int age;
+    Person(String a, int b) {
+        name = a;
+        age = b;
+    }
+    void display() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("*****ALL THE BEST*****");
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Person obj1 = new Person("SIVASANKAR", 20);
+        Person obj2 = new Person("SANTHOSH", 23);
+        obj1.display();
+        obj2.display();
+    }
+}
+
+
+OUTPUT:
+Name: SIVASANKAR
+Age: 20
+*****ALL THE BEST*****
+Name: SANTHOSH
+Age: 23
+*****ALL THE BEST*****

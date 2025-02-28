@@ -1,0 +1,28 @@
+class Person {
+    String name;
+    int age;
+    String rollno;
+    Person(String name, int age, String rollno) {
+        this.name = name;
+        this.age = age;
+        this.rollno= rollno;
+    }
+    void displayInfo() {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Rollno: " + rollno);
+
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Person person1 = new Person("Sivasnkar", 20, "234g1a33g4");
+        person1.displayInfo();
+    }
+}
+
+
+OUTPUT:
+Name: Sivasnkar
+Age: 20
+Rollno: 234g1a33g4
